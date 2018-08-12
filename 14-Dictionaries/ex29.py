@@ -24,7 +24,6 @@ bakery_stock = {
 }
 
 if(bakery_stock.get(food)):
-    bakery_stock[food] -= 1
     print(f'{bakery_stock[food]} {food} left')
     #print('{} left'.format(bakery_stock[food]))
 else:
